@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tolu's Personal Blog</title>
+</head>
+<body>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            line-height: 1.6;
+            background-color: whitesmoke;
+            color: #333;
+
+        }
+        header{
+            background-color: antiquewhite;
+            padding: 20px 0;
+
+        }
+        nav ul{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            list-style-type: none;
+        }
+        nav ul li{
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: burlywood;
+            font-size: 22px;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li :hover{
+            color: blueviolet;
+        }
+        nav h1{
+            align-items: center;
+        }
+
+        footer{
+            background-color: antiquewhite;
+            color: black;
+            padding: 12px;
+            text-align: center;
+        }
+        #hero{
+            text-align: center;
+            padding:60px 20px ;
+            
+
+        }
+        #hero h2{
+            font-size: 28px;
+            margin: 10px 0;
+
+        }
+
+        .get-started{
+            display: inline-block;
+            padding: 10px 20px;
+            border: 8px;
+            margin-top: 10px;
+            color: #fff;
+            background-color: #5c3d2e;
+        }
+        .get-started:hover{
+            background-color: #3d2a1f;
+        }
+        #about-preview{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 50px 0;
+
+        }
+        #about-preview img{
+            border-radius: 60%;
+
+        }
+        #about-preview div{
+            max-width: 600px;
+        }
+
+        #about-preview h3{
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .read-more{
+            display: inline-block;
+            margin-top: 10px;
+            color: #5c3d2e;
+            font-weight: bold;
+        }
+
+        .read-more:hover{
+            text-decoration: underline;
+        }
+
+        #featured-posts{
+            padding: 40px;
+        }
+        #featured-posts h3{
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        #featured-posts article{
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+
+        #featured-posts h2{
+            font-size: 22px;
+            margin: 10px 0;
+        }
+          #featured-post article img{
+            max-width: 100%;
+            border-radius: 8px;
+
+          }
+          #newsletter{
+            padding: 40px 20px;
+            text-align: center;
+            margin: 40px 0;
+          }
+
+           #newsletter form{
+            margin-top: 20px;
+           }
+            #newsletter button{
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                color: white;
+                background-color: #5c3d2e;
+                border-radius: 7px;
+            }
+
+            #categories{
+                padding: 30px 0;
+           
+                border-radius: 8px;
+            }
+            #categories h3{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            #categories ul{
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                gap: 20px;
+            }
+            #categories ul li a{
+                text-decoration: none;
+                color: #333;
+                font-weight: 600;
+            }
+
+
+
+
+
+       
+        
+    </style>
+
+    <header>
+        <nav>
+            <h1>Notes From Tolu</h1>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="hero">
+        <h2>I am Tolu</h1>
+        <h2>Welcome to my Journey of Discovery and Growth</h2>
+        <p>Sharing my experiences in tech, personal growth, and life's lessons.</p>
+        <a href="blog.html" class="get-started" style="text-decoration: none;">Get Started</a>
+    </section>
+
+
+    <section id="about-preview">
+        <img src="images/birh2.jpg" alt="Toluwani Elizabeth" width="150" height="150" />
+        <div>
+            <h3>About Me</h3>
+            <p>Hello! I am Toluwani, passionate about technology, growth, and sharing valuable insights to help you thrive.</p>
+            <a href="about.html" class="read-more" style="text-decoration: none;">Learn More About Me</a>
+        </div>
+    </section>
+
+
+    <section id="featured-posts">
+        <h3>Latest Articles</h3>
+
+         <article>
+            <img src="images/birh3.jpg" alt="Tech Journey" width="300" />
+            <h2>My Tech & ICAN Journey</h2>
+            <p>Balancing ICAN and tech hasn't been easy, but it has taught me discipline, and power of showing myself.</p>
+            <a href="/blog page/mytech.html" class="read-more" style="text-decoration: none;">Read More</a>
+        </article>
+
+        <article>
+            <img src="images/birth7.jpg" alt="Personal Growth" width="300" />
+            <h2>Personal Growth</h2>
+            <p>How I developed routines that transformed my productivity and mindset.</p>
+            <p><small>March 2025 | Personal Growth</small></p>
+            <a href="/blog page/personalgrowth.html" class="read-more" style="text-decoration: none;">Read More</a>
+        </article>
+
+        <article>
+            <img src="images/birth9.jpg" alt="Personal Growth" width="300" />
+            <h2>Life Updates</h2>
+            <p>Life has a way of unfolding in unexpected ways<p>
+            <p><small>February 2025 | Life</small></p>
+            <a href="/blog page/life updates.html" class="read-more" style="text-decoration: none;">Read More</a>
+        </article>
+    </section>
+
+
+    <section id="categories">
+        <h3>Explore Topics</h3>
+        <ul>
+            <li><a href="blog page/mytech.html">Tech Journey</a></li>
+            <li><a href="blog page/personalgrowth.html">Personal Growth</a></li>
+            <li><a href="blog page/life updates.html">Life</a></li>
+        </ul>
+    </section>
+
+
+    <section id="newsletter">
+        <h3>Subscribe for Updates</h3>
+        <form action="n" method="post">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="you@tolu.com" required />
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Notes From Tolu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
